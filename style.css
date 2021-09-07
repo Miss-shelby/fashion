@@ -1,0 +1,334 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'open sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.general{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+.general-column{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.general-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.general-coming-100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.custom-font{
+    font-family: "playfair display",sans-serif;
+}
+header{
+    width:100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(./images/ammie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 60px;
+}
+.banner-title{
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+.banner-text{
+    font-size: 0.9rem;
+    font-weight:normal ;
+    background: white;
+    padding: 30px;
+    color: black;
+}
+.anonn-section{
+display: flex;
+justify-content: center;
+padding:100px 0 ;
+background: #d9b1b3;
+color: white;
+}
+.header{
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 15px;
+
+}
+.header span{
+    font-size: 6rem;
+    line-height: 0;
+}
+.anonn-section p{
+    font-size: 0.8rem;
+    width: 50%;
+}
+.gallery .img-container {
+    height: 500px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery .gallery-img-1{
+    background-image: url(images/gallery1.jpeg);
+}
+.gallery .gallery-img-2{
+    background-image: url(images/gallery2.jpeg);
+}
+.gallery .gallery-img-3{
+    background-image: url(images/gallery3.jpeg);
+}
+.gallery .gallery-img-4{
+    background-image: url(images/gallery4.jpeg);
+}
+.gallery .gallery-img-5{
+    background-image: url(images/gallery5.jpeg);
+}
+.gallery .gallery-img-6{
+    background-image: url(images/gallery\ 6.jpeg);
+}
+.coming-soon{
+   background-color: #d9b1b3; 
+   color: #ffff;
+   padding: 50px 0;
+}
+.coming-soon .general-coming-100{
+    justify-content: center;
+}
+.coming-soon .coming-heading{
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+}
+.coming-soon .website{
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+.coming-soon .coming-soon-form{
+    margin-top: 35px ;
+}
+.coming-soon-form .general-100{
+    justify-content: center;
+}
+.coming-soon-form .input-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+.input-container .text-input,
+.input-container .form-btn{
+    padding: 10px 10px;
+    border: unset;
+    border-radius: 20px;
+}
+.input-container .form-btn{
+    background-color: black;
+    color: #ffff;
+}
+.modell{
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.model-picture{
+    height: 600px;
+    width: 400px;
+}
+.article{
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.article .mistress{
+    padding: 30px;
+    margin-top: 50px;
+}
+.fonts{
+    padding-left: 30px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.spring{
+    background-color: #d9b1b3;
+    padding: 60px 15px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.spring  .spring-header{
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+}
+.collection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.spring .img-container{
+    height: 300px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.spring .img-7{
+    background-image: url(images/shirt.jpg);
+}
+.spring .img-8{
+    background-image: url(images/glasses.jpg);
+    margin-left: 10px;
+}
+.spring .img-9{
+    background-image: url(images/handbag.jpg);
+    margin:0 10px;
+}
+.spring .img-10{
+    background-image: url(images/shoe.jpg);
+}
+.spring  .arrow{
+    margin-top: 15px;
+    text-align: center;
+}
+.product{
+    background-color: #ffffff;
+    padding: 40px 60px;
+}
+.product .img-container{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.shoes{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+.product .img-11{
+background-image: url(images/sneakers.jpg);
+margin-right: 20px;
+margin-bottom: 15px;
+}
+.product .img-12{
+    background-image: url(images/one-pair.jpg);
+}
+.product .dollar{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.product .sample-text{
+    margin-left: 20px;
+    font-size: 1.2rem;
+    width: 90%;
+}
+.product .input-container{
+    padding: 40px 20px;
+}
+.input-container .cart-btn{
+    padding: 15px 50px;
+    border-radius: 20px;
+    border: unset;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+.flower{
+    display: flex;
+}
+.splash .img-container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.splash .img-13{
+    background-image: url(images/unsplash4\ -\ Copy.jpg);
+}
+.tests{
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.tests .suscribe-head {
+    width: 50%;
+    font-style: italic;
+    margin-left: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 4.5rem;
+}
+.tests .horizontal-rule{
+    height: 10px;
+    width: 80%;
+    background-color: #d9b1b3;
+    margin: auto;
+}
+.tests .input-boxes{
+    display: flex;
+}
+.tests .input-tag{
+    padding: 10px;
+}
+.input-tag .input-texts{
+    padding: 10px 25px;
+}
+.input-tag{
+    display: flex;
+    justify-content: center;
+}
+.input-tag .sub{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: unset;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.click p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+.media-icons{
+   margin: 30px 0;
+    display: flex;
+   justify-content: center;
+}
+.media-icons .twitter-icon{
+    padding: 0 20px;
+}
